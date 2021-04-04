@@ -1,4 +1,4 @@
-# Barista - FullStack Auth App
+# Roulette - FullStack Auth App
 
 - I created a Roulette full stack app where the player can pick a number or color and place a bet. The casino dealer/employee can login to see the casinos financials that will list all the player rounds and keep track of what the casino has won and lost for the night.
 
