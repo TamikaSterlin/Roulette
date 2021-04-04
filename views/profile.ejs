@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Roulette!</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="page-header text-center">
+      <h1 class="profile">Profile Page</h1>
+      <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+      <!-- LOCAL INFORMATION -->
+      <div class="col-sm-6">
+        <div class="well">
+          <h3><span class="fa fa-user"></span> Employee</h3>
+          <p>Casino Win Total: <span><%= casinoWonTotal %></span></p>
+          <p>Casino Loss Total: <span><%= casinoLostTotal %></span></p>
+
+
+        </div>
+      </div>
+      <section class="box">
+        <div class="col-sm-6">
+          <h3>Casino</h3>
+          <ul class="messages">
+            <% for(var i=0; i<results.length; i++) {%>
+            <li class="message">
+              <p>Player: <span><%= results[i].name %></span> </p>
+              <p>Casino Won: <span><%= results[i].casinoWon %></span> </p>
+              <p>Casino Lost: <span><%= results[i].casinoLost %></span> </p>
+              <p>Date: <span><%= results[i].timestamp %></span> </p>
+            </li>
+            <% } %>
+          </ul>
+      </section>
+
+      <script src="main.js"></script>
+
+</body>
+
+</html>

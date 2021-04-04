@@ -1,0 +1,113 @@
+body {
+  padding-top: 80px;
+  font-size: 62.5;
+  background-color: black;
+}
+
+#roulette {
+  font-family: 'Zilla Slab Highlight', cursive;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img {
+  height: 200px;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  font-size: 3rem;
+}
+
+li {
+  font-size: 2.5rem;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+h3, .profile {
+  font-size: 4rem;
+  color: red;
+}
+
+.row {
+  padding-top: 25px;
+  border: 1px solid black;
+  background-color: rgb(2, 81, 42, .6);
+}
+
+.login {
+  color: white;
+}
+
+.submit {
+  margin: 20px;
+}
+
+.jumbotron {
+  margin: min(2rem, 2vw) width: 50%;
+  background-color: rgb(2, 81, 42, .6);
+  border-radius: 10%;
+}
+
+.player {
+  margin: 40px auto;
+  text-align: center;
+}
+
+select {
+  height: 25px;
+}
+
+.results {
+  color: white;
+}
+
+#money {
+  color: white;
+}
+
+#wheel {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin: min(2rem, 2vw);
+  margin: 0px auto;
+}
+
+#wheel:before {
+  content: "";
+  background-image: url(img/wheel.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  transform: rotate(43deg);
+  z-index: 0;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border: 1px solid yellow;
+  transition: all 4s ease;
+}
+
+#ball {
+  border-radius: 50%;
+  background-image: url(img/ball.png);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 24%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
