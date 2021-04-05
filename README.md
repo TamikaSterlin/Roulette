@@ -2,7 +2,8 @@
 
 - I created a Roulette full stack app where the player can pick a number or color and place a bet. The casino dealer/employee can login to see the casinos financials that will list all the player rounds and keep track of what the casino has won and lost for the night.
 
-[Checkout my portfollio to see live app](https://www.tamikasterlin.com)
+[Checkout my portfollio](https://www.tamikasterlin.com)
+[Live App](https://roulette-games.herokuapp.com/)
 
 ![application screenshot](public/screenshot.png)
 ![application screenshot](public/screenshot1.png)
