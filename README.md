@@ -2,7 +2,6 @@
 
 - I created a Roulette full stack app where the player can pick a number or color and place a bet. The casino dealer/employee can login to see the casinos financials that will list all the player rounds and keep track of what the casino has won and lost for the night.
 
-[Checkout my portfollio](https://www.tamikasterlin.com)
 [Live App](https://roulette-games.herokuapp.com/)
 
 ![application screenshot](public/screenshot.png)
@@ -18,6 +17,7 @@
 - I learned how to use express and node.js to get my app running server side and to create user authentication. I also learned how to create a database using MondoDB and with that, I was able to practice using CRUD and rest api's.
 
 ## Other Projects
+[Checkout my portfollio](https://www.tamikasterlin.com)
 
 [Movie Quotes App - Express](https://github.com/TamikaSterlin/Personal-Express---Movie-Quotes)
 
